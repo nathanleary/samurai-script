@@ -7,7 +7,7 @@ ui "github.com/andlabs/ui"
 
 )
 
-func init() {
+func Load(DefaultInterfaces map[string]map[string]interface{}) {
 
 
 if _, ok := DefaultInterfaces["ui"]; !ok {
